@@ -4,7 +4,6 @@ from flask import render_template, request
 from flask import redirect, url_for
 import os
 from PIL import Image
-from keras.models import load_model
 import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
